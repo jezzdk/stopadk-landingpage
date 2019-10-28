@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html class="h-full" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Jess Froholdt Stopa</title>
+  <meta name="description" content="Full stack developer. Laravel, Vue, React, Javascript, Sass, you name it.">
+  <meta property="og:title"              content="Jess Froholdt Stopa" />
+  <meta property="og:description"        content="Full stack developer. Laravel, Vue, React, Javascript, Sass, you name it." />
+  <meta property="og:image"              content="http://jezz.dk/bg.jpg" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto+Slab:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Any of your own CSS would go here -->
+  <style>
+    .font-opensans {
+      font-family: 'Open Sans'
+    }
+    .font-roboto {
+      font-family: 'Roboto Slab'
+    }
+    .bg-black-dark {
+      background-color: #000000;
+    }
+    .h-half {
+      height: 50%;
+    }
+    @media (min-width: 992px) {
+      .text-6xl {
+        font-size: 6rem !important;
+      }
+    }
+    #content {
+      transition: opacity 2s;
+    }
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
+</head>
+<body class="h-full bg-black-dark">
+<div id="content" class="h-full w-full flex items-start flex-col lg:justify-center opacity-0">
+  <div class="flex-none w-full h-half bg-no-repeat bg-center bg-cover lg:h-full lg:fixed lg:pin lg:z-0 lg:bg-right lg:bg-contain" style="background-image: url('bg.jpg')"></div>
+  <div class="text-white text-center mx-4 lg:text-left lg:mx-20 lg:absolute lg:z-10">
+    <div class="font-opensans text-5xl text-6xl uppercase mb-8">Jess Froholdt <br>Stopa</div>
+    <div class="font-roboto text-lg lg:text-2xl">Full stack developer</div>
+    <div class="w-32 my-8 border-2 border-yellow-400 rounded mx-auto lg:mx-0"></div>
+    <div class="font-roboto leading-normal lg:max-w-sm lg:text-lg">
+      Developer. Husband. Father of two. Also a beer lover. Devoted to making the internet a better place. Follow the social links to know more about me.
+    </div>
+    <div class="mt-4 text-4xl lg:mt-8">
+      <a href="https://github.com/jezzdk" class="text-white mr-4" title="Github"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jessjohannessen/" class="text-white mr-4" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/jess.froholdt.stopa" class="text-white mr-4" title="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/jezzdk/" class="text-white" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function(){
+    document.getElementById('content').classList.add('opacity-100');
+  }
+</script>
+</body>
+</html>
